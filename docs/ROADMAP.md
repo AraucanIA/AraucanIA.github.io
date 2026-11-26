@@ -9,7 +9,7 @@ Estado de las mejoras propuestas tras la migración desde Google Sites. Cada pun
 - [x] Secciones "Cómo trabajamos" y "Por qué Araucan IA".
 - [x] Precios "desde", planes de inicio y forma de pago, según el tarifario de octubre de 2026.
 - [x] Contacto completo con horario de atención y botón fijo de WhatsApp en celulares.
-- [x] Resultados con cifras y colaboradores, con autorización de los clientes.
+- [x] Resultados con cifras y colaboradores.
 - [x] Correcciones de texto del sitio anterior y año del pie de página.
 - [x] Identidad visual del brochure: tipografía Jost, paleta verde y logos oficiales en SVG.
 - [x] Diseño pensado primero para celulares, con contraste AA.
