@@ -1,12 +1,11 @@
-# Licencias de las tipografías
+# Licencia de la tipografía
 
-Las tipografías se alojan en el propio sitio (no se cargan desde Google Fonts).
-Archivos tomados de los paquetes de [Fontsource](https://fontsource.org/), versión 5.1.0, solo con los caracteres latinos.
+El sitio usa **Jost**, la misma tipografía del brochure y el tarifario de Araucan IA. Se aloja en el propio sitio (no se carga desde Google Fonts).
 
 | Archivo | Familia | Licencia |
 | --- | --- | --- |
-| `roboto-latin-*.woff2` | Roboto (Google) | Apache License 2.0 |
-| `roboto-mono-latin-600-normal.woff2` | Roboto Mono (Google) | Apache License 2.0 |
-| `pt-sans-latin-700-normal.woff2` | PT Sans (ParaType) | SIL Open Font License 1.1 |
+| `jost-latin-300-normal.woff2` | Jost Light (Owen Earl, indestructible type*) | SIL Open Font License 1.1 |
+| `jost-latin-400-normal.woff2` | Jost Regular | SIL Open Font License 1.1 |
+| `jost-latin-500-normal.woff2` | Jost Medium | SIL Open Font License 1.1 |
 
-Ambas licencias permiten usar, alojar y distribuir las fuentes en sitios web comerciales.
+Archivos tomados del paquete [`@fontsource/jost`](https://fontsource.org/fonts/jost) 5.1.1, solo con los caracteres latinos. La licencia SIL OFL 1.1 permite usar, alojar y distribuir la fuente en sitios web comerciales.
