@@ -571,7 +571,7 @@ a {
 }
 
 .nosotros__texto {
-  width: min(100%, 926px);
+  max-width: 926px;
   margin-left: clamp(0px, 9%, 103px);
 }
 
