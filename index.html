@@ -3,12 +3,60 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Araucan IA</title>
-  <meta name="description" content="Araucan IA: inteligencia artificial para tus negocios. Creación de contenido, automatización, chatbots, asesoría y diagnóstico desde Temuco, Chile.">
-  <meta name="theme-color" content="#4f474e">
+  <title>Araucan IA | Contenido con IA para pymes en Temuco y La Araucanía</title>
+  <meta name="description" content="Videos, imágenes, voces y logos con inteligencia artificial para pymes de La Araucanía. Video desde $45.000 sin IVA. Escríbenos por WhatsApp y recibe una idea de contenido gratis.">
+  <meta name="theme-color" content="#17402f">
+  <link rel="canonical" href="https://araucania.github.io/">
   <link rel="icon" href="favicon.ico" sizes="32x32">
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/jost-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CL">
+  <meta property="og:site_name" content="Araucan IA">
+  <meta property="og:url" content="https://araucania.github.io/">
+  <meta property="og:title" content="Araucan IA | Contenido con IA para pymes de La Araucanía">
+  <meta property="og:description" content="Videos, imágenes, voces y logos para que tu negocio publique todo el mes. Escríbenos por WhatsApp y recibe una idea de contenido gratis.">
+  <meta property="og:image" content="https://araucania.github.io/assets/img/og-araucania.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Araucan IA: contenido con inteligencia artificial para pymes de La Araucanía">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Araucan IA",
+    "legalName": "Araucan IA SpA",
+    "url": "https://araucania.github.io/",
+    "logo": "https://araucania.github.io/assets/icons/icon-512.png",
+    "image": "https://araucania.github.io/assets/img/og-araucania.jpg",
+    "description": "Contenido con inteligencia artificial para pymes de La Araucanía: videos, imágenes, voces, logos y herramientas digitales, revisados por personas.",
+    "telephone": "+56931081739",
+    "email": "araucania.contacto@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Temuco",
+      "addressRegion": "La Araucanía",
+      "addressCountry": "CL"
+    },
+    "areaServed": "La Araucanía",
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "09:00",
+      "closes": "20:00"
+    }],
+    "sameAs": [
+      "https://www.instagram.com/araucan.ia/",
+      "https://www.tiktok.com/@araucan.ia",
+      "https://www.linkedin.com/company/araucan-ia/"
+    ]
+  }
+  </script>
+
   <link rel="stylesheet" href="assets/css/styles.css">
   <script>document.documentElement.classList.add("js");</script>
   <script src="assets/js/main.js" defer></script>
@@ -16,163 +64,246 @@
 <body>
   <a class="saltar" href="#contenido">Ir al contenido principal</a>
 
-  <header class="barra barra--transparente" data-transparente>
-    <div class="barra__interior">
-      <a class="marca" href="index.html">
-        <img src="assets/img/logo-araucania-blanco.webp" alt="" width="40" height="40">
-        <span>Araucan IA</span>
+  <header class="barra">
+    <div class="contenedor barra__interior">
+      <a class="marca" href="./" aria-label="Araucan IA, inicio">
+        <img src="assets/img/marca/araucania-logo-oficial-negro.svg" alt="Araucan IA" width="94" height="48">
       </a>
       <button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
       </button>
       <nav id="menu" class="menu" aria-label="Principal">
-        <a href="index.html" aria-current="page">Página principal</a>
-        <a href="documentacion.html">Documentación</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#precios">Precios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a class="boton" href="https://wa.me/message/2SJY6SYY5FPGD1" target="_blank" rel="noopener">Escríbenos</a>
       </nav>
     </div>
   </header>
 
   <main id="contenido">
-    <section class="portada">
-      <h1>Inteligencia Artificial para tus negocios</h1>
-      <a class="portada__bajar" href="#servicios" aria-label="Ir a los servicios">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"/></svg>
-      </a>
+    <section class="portada" aria-labelledby="titulo-portada">
+      <div class="contenedor portada__interior">
+        <div>
+          <p class="portada__lugar">Temuco, La Araucanía</p>
+          <h1 id="titulo-portada">Contenido con inteligencia artificial para pymes de La Araucanía</h1>
+          <p class="portada__bajada">Videos, imágenes, voces y logos para que tu negocio publique todo el mes, sin detener su operación ni montar un estudio.</p>
+          <div class="portada__acciones">
+            <a class="boton" href="https://wa.me/message/2SJY6SYY5FPGD1" target="_blank" rel="noopener">Recibe una idea gratis por WhatsApp</a>
+            <a class="boton boton--borde" href="#servicios">Ver servicios</a>
+          </div>
+          <p class="portada__nota">Respondemos de lunes a sábado, de 9:00 a 20:00.</p>
+        </div>
+        <div class="portada__visual" aria-hidden="true">
+          <img src="assets/img/marca/araucania-logo-oficial-negro.svg" alt="" width="1080" height="550">
+        </div>
+      </div>
+      <div class="portada__formas" aria-hidden="true"></div>
     </section>
 
-    <section id="servicios" class="banda">
-      <h2>✨Conoce nuestros servicios✨</h2>
-    </section>
-
-    <section class="servicios servicios--estrellas" aria-label="Servicios principales">
-      <ul class="grilla grilla--3 contenedor">
-        <li class="servicio">
-          <img src="assets/img/servicio-creacion-contenido.webp" alt="Destellos dorados" width="160" height="160" loading="lazy" decoding="async">
-          <h3>CREACIÓN DE CONTENIDO</h3>
-        </li>
-        <li class="servicio">
-          <img src="assets/img/servicio-automatizacion-workflows.webp" alt="Diagrama de flujos de trabajo automatizados" width="800" height="800" loading="lazy" decoding="async">
-          <h3>AUTOMATIZACIÓN Y WORKFLOWS</h3>
-        </li>
-        <li class="servicio">
-          <img src="assets/img/servicio-chatbots.webp" alt="Ilustración de un robot asistente con audífonos" width="800" height="800" loading="lazy" decoding="async">
-          <h3>CHATBOTS</h3>
-        </li>
-      </ul>
-    </section>
-
-    <section class="servicios servicios--papel" aria-label="Más servicios">
-      <ul class="grilla grilla--3 contenedor">
-        <li class="servicio">
-          <img src="assets/img/servicio-asesoria.webp" alt="Logo de Araucan IA" width="800" height="618" loading="lazy" decoding="async">
-          <h3>ASESORÍA</h3>
-        </li>
-        <li class="servicio">
-          <img src="assets/img/servicio-diagnostico.webp" alt="Logo de Araucan IA sobre fondo morado" width="800" height="450" loading="lazy" decoding="async">
-          <h3>DIAGNÓSTICO</h3>
-        </li>
-        <li class="servicio">
-          <img src="assets/img/servicio-ia-local.webp" alt="Escudo de protección" width="160" height="160" loading="lazy" decoding="async">
-          <h3>IA LOCAL</h3>
-        </li>
-      </ul>
-    </section>
-
-    <section class="workflows">
+    <section id="servicios" class="seccion" aria-labelledby="titulo-servicios">
       <div class="contenedor">
-        <h2>🕸️Workflows🕸️</h2>
-        <nav class="indice" aria-label="Índice de workflows">
-          <ul>
-            <li><a href="#publico">👤Público👤</a></li>
-            <li><a href="#personalizacion">✨Personalización✨</a></li>
-            <li><a href="#digitalizacion">🚀Digitalización🚀</a></li>
-          </ul>
-        </nav>
+        <p class="etiqueta">Qué hacemos</p>
+        <h2 id="titulo-servicios">Todo el contenido que tu negocio necesita, producido con IA y revisado por personas</h2>
+        <p class="intro">Combinamos herramientas de inteligencia artificial con criterio creativo para entregar piezas listas para publicar. Tú nos cuentas qué vendes; nosotros nos encargamos del resto.</p>
+        <ul class="items">
+          <li class="item"><h3>Videos y reels</h3><p>Piezas verticales para Instagram, TikTok y Facebook, con subtítulos y música.</p></li>
+          <li class="item"><h3>Imágenes de producto</h3><p>Tu producto en escenarios profesionales, sin sesión de fotos ni estudio.</p></li>
+          <li class="item"><h3>Voces y locuciones</h3><p>Narraciones naturales para videos, anuncios y mensajes de tu marca.</p></li>
+          <li class="item"><h3>Logos e identidad</h3><p>Creación o adaptación de logo, colores y estilo visual a partir de un briefing.</p></li>
+          <li class="item"><h3>Avatares digitales</h3><p>Un presentador virtual que habla por tu marca, o tu propio gemelo digital con tu autorización.</p></li>
+          <li class="item"><h3>Gestión de redes</h3><p>Calendario, publicación y respuesta de mensajes en Instagram, Facebook y TikTok.</p></li>
+        </ul>
+        <div class="destacada">
+          <span class="destacada__linea"></span>
+          <h3>Contenido en serie</h3>
+          <p>A partir de una sola foto, producto o idea base, generamos decenas de piezas adaptadas a cada red. Más volumen, misma identidad, sin empezar de cero cada vez.</p>
+        </div>
       </div>
     </section>
 
-    <section class="desplegables">
+    <section id="soluciones" class="seccion" aria-labelledby="titulo-soluciones">
       <div class="contenedor">
-        <details id="publico" class="desplegable">
-          <summary><h3>👤Público👤</h3></summary>
-          <div class="desplegable__cuerpo">
-            <p>Tenemos un enfoque multiindustria que abarca la Creación de Cotenido para Redes Sociales.</p>
-            <!-- PENDIENTE (texto de plantilla de Google Sites, no publicado):
-            <p>Usa instrucciones paso a paso para ayudar a otros a solucionar el problema.</p>
-            <ol><li>Paso 1</li><li>Paso 2</li><li>Paso 3</li></ol>
-            -->
-          </div>
-        </details>
-        <details id="personalizacion" class="desplegable">
-          <summary><h3>✨Personalización✨</h3></summary>
-          <div class="desplegable__cuerpo">
-            <!-- PENDIENTE: esta sección estaba vacía en Google Sites. -->
-          </div>
-        </details>
-        <details id="digitalizacion" class="desplegable">
-          <summary><h3>🚀Digitalización🚀</h3></summary>
-          <div class="desplegable__cuerpo">
-            <!-- PENDIENTE: esta sección estaba vacía en Google Sites. -->
-          </div>
-        </details>
+        <p class="etiqueta">Más soluciones</p>
+        <h2 id="titulo-soluciones">Además del contenido, te ayudamos a vender, atender y ordenar tu negocio</h2>
+        <p class="intro">Servicios para pymes que quieren anunciar, responder mejor a sus clientes y trabajar con herramientas simples. Cada uno se cotiza según lo que tu negocio necesita.</p>
+        <ul class="items items--4">
+          <li class="item"><h3>Video con dron</h3><p>Tomas aéreas para mostrar tu local, terreno o proyecto desde otra perspectiva.</p></li>
+          <li class="item"><h3>Campañas pagadas</h3><p>Anuncios en Meta, TikTok o Google Ads. La inversión publicitaria se paga aparte.</p></li>
+          <li class="item"><h3>Chatbot con IA</h3><p>Un asistente que responde las preguntas frecuentes de tus clientes a toda hora.</p></li>
+          <li class="item"><h3>Páginas web</h3><p>Un sitio para tu negocio con tus servicios, datos de contacto y ubicación.</p></li>
+          <li class="item"><h3>Plantillas Excel</h3><p>Planillas listas para cotizar, controlar inventario o registrar clientes.</p></li>
+          <li class="item"><h3>Asesoría y clases de IA</h3><p>Sesiones personalizadas o clases para que tu equipo use la IA en el día a día.</p></li>
+          <li class="item"><h3>Tarjetas NFC de reseñas</h3><p>Tus clientes acercan el celular a la tarjeta y llegan directo a dejar su reseña en Google Maps.</p></li>
+          <li class="item"><h3>Soporte técnico</h3><p>Mantención de hardware y software para que tus equipos funcionen bien y tu operación no se detenga.</p></li>
+        </ul>
       </div>
     </section>
 
-    <section class="colaboradores">
+    <section id="proceso" class="seccion" aria-labelledby="titulo-proceso">
       <div class="contenedor">
-        <h2 class="caja-titulo">👥Colaboradores👥</h2>
-        <ul class="grilla grilla--4">
-          <li class="colaborador">
-            <img src="assets/img/colaborador-importadora-el-arabito.webp" alt="Bodega de Importadora El Arabito" width="560" height="575" loading="lazy" decoding="async">
-            <p><span class="destacado destacado--amarillo">Importadora El Arabito</span></p>
+        <p class="etiqueta">Cómo trabajamos</p>
+        <h2 id="titulo-proceso">Un proceso simple, de la primera conversación a la pieza publicada</h2>
+        <ol class="pasos">
+          <li class="paso"><h3>Conversamos</h3><p>Por WhatsApp o en una reunión breve, entendemos tu negocio, tu público y lo que necesitas comunicar.</p></li>
+          <li class="paso"><h3>Briefing y propuesta</h3><p>Definimos estilo, formatos y calendario. Recibes una propuesta clara con el alcance del trabajo.</p></li>
+          <li class="paso"><h3>Producción</h3><p>Creamos las piezas con IA y las revisamos una a una. Nada se publica sin tu aprobación.</p></li>
+          <li class="paso"><h3>Entrega y ajustes</h3><p>Coordinamos contigo las entregas y las rondas de ajuste. Los plazos se definen en cada propuesta, según el volumen del proyecto.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="seccion razones" aria-labelledby="titulo-razones">
+      <div class="contenedor">
+        <h2 id="titulo-razones">Por qué Araucan IA</h2>
+        <ul class="razones__lista">
+          <li><h3>Somos de Temuco</h3><p>Conocemos a los negocios de la región y hablamos su mismo idioma.</p></li>
+          <li><h3>Dos años creando contenido</h3><p>Experiencia real produciendo y gestionando redes para pymes.</p></li>
+          <li><h3>IA con criterio humano</h3><p>La tecnología acelera; las decisiones creativas siguen siendo nuestras y tuyas.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="resultados" class="seccion" aria-labelledby="titulo-resultados">
+      <div class="contenedor">
+        <p class="etiqueta">Resultados</p>
+        <h2 id="titulo-resultados">Resultados reales de nuestros clientes</h2>
+        <div class="casos">
+          <article class="caso">
+            <p class="caso__tipo">Contenido orgánico</p>
+            <h3>Hojalatería Miriam</h3>
+            <ul class="caso__cifras">
+              <li><strong>×10</strong> visualizaciones al mes</li>
+            </ul>
+            <p>Su perfil pasó de unas 700 a 7.000 visualizaciones mensuales, solo con contenido orgánico.</p>
+          </article>
+          <article class="caso caso--pagado">
+            <p class="caso__tipo">Medios pagados</p>
+            <h3>Inmobiliaria Adelco</h3>
+            <ul class="caso__cifras">
+              <li><strong>100.000</strong> de alcance en dos meses</li>
+              <li><strong>300</strong> leads en tres meses</li>
+              <li><strong>50–60</strong> leads por semana en los mejores momentos</li>
+            </ul>
+            <p>Campañas para tres proyectos inmobiliarios: dos en Temuco y uno en Los Ángeles. Cifras aproximadas.</p>
+          </article>
+        </div>
+
+        <h3 class="clientes__titulo">Negocios que han confiado en nosotros</h3>
+        <ul class="clientes">
+          <li class="cliente">
+            <img src="assets/img/clientes/importadora-el-arabito.webp" alt="Bodega de Importadora El Arabito" width="560" height="575" loading="lazy" decoding="async">
+            <p>Importadora El Arabito</p>
           </li>
-          <li class="colaborador">
-            <img src="assets/img/colaborador-la-pica-del-guaton.webp" alt="Logo de La Picá del Guatón" width="560" height="560" loading="lazy" decoding="async">
-            <p><span class="destacado destacado--naranjo">La Picá del Guatón</span></p>
+          <li class="cliente">
+            <img src="assets/img/clientes/la-pica-del-guaton.webp" alt="Logo de La Picá del Guatón" width="560" height="560" loading="lazy" decoding="async">
+            <p>La Picá del Guatón</p>
           </li>
-          <li class="colaborador">
-            <img src="assets/img/colaborador-hojalateria-miriam.webp" alt="Letrero de Hojalatería Miriam" width="450" height="800" loading="lazy" decoding="async">
-            <p><span class="destacado destacado--azul">Hojalatería Miriam</span></p>
+          <li class="cliente">
+            <img src="assets/img/clientes/hojalateria-miriam.webp" alt="Letrero de Hojalatería Miriam" width="450" height="800" loading="lazy" decoding="async">
+            <p>Hojalatería Miriam</p>
           </li>
-          <li class="colaborador">
-            <img src="assets/img/colaborador-nicolas-salas.webp" alt="Obra de Nicolás Salas" width="560" height="698" loading="lazy" decoding="async">
-            <p><span class="destacado destacado--rosado">Nicolás Salas</span></p>
+          <li class="cliente">
+            <img src="assets/img/clientes/nicolas-salas.webp" alt="Obra de Nicolás Salas" width="560" height="698" loading="lazy" decoding="async">
+            <p>Nicolás Salas</p>
           </li>
         </ul>
       </div>
     </section>
 
-    <section class="llamado">
+    <section id="precios" class="seccion" aria-labelledby="titulo-precios">
       <div class="contenedor">
-        <img src="assets/img/diagnostico-reunion.webp" alt="Dos personas revisando un computador en una reunión de trabajo" width="1600" height="1067" loading="lazy" decoding="async">
-        <h2>👇🏼Coordina el diagnóstico para tu plan de trabajo 👇🏼</h2>
-        <a href="https://www.linkedin.com/company/araucan-ia/" target="_blank" rel="noopener">Más información</a>
+        <p class="etiqueta">Formatos y precios</p>
+        <h2 id="titulo-precios">Elige cómo quieres trabajar con nosotros</h2>
+        <p class="intro">Partimos con una pieza o con un plan mensual. Cada propuesta se ajusta al alcance de tu proyecto.</p>
+        <div class="precios">
+          <article class="precio">
+            <h3>Video</h3>
+            <p class="precio__desde">Desde</p>
+            <p class="precio__valor">$45.000</p>
+            <p class="precio__detalle">sin IVA, por video</p>
+            <p class="precio__texto">Una pieza vertical lista para publicar en tus redes.</p>
+          </article>
+          <article class="precio precio--rosado">
+            <h3>Plan mensual</h3>
+            <p class="precio__desde">Desde</p>
+            <p class="precio__valor">$150.000</p>
+            <p class="precio__detalle">al mes por 4 videos, sin IVA</p>
+            <p class="precio__texto">Contenido constante y un calendario de publicación pensado para tu negocio. Cada video: $37.500.</p>
+          </article>
+          <article class="precio precio--celeste">
+            <h3>Contenido + Ads</h3>
+            <p class="precio__desde">Valor</p>
+            <p class="precio__valor">A cotizar</p>
+            <p class="precio__detalle">según tu objetivo</p>
+            <p class="precio__texto">Producimos las piezas y gestionamos tus anuncios en Meta. La inversión publicitaria se paga aparte, directo a Meta.</p>
+          </article>
+        </div>
+        <div class="inicio">
+          <h3>¿Primera vez? Planes de inicio</h3>
+          <p>Piloto, 2 videos: <strong>$90.000</strong></p>
+          <p>Digitalización, 2 videos + logo: <strong>$110.000</strong></p>
+        </div>
+        <div class="condiciones">
+          <h3>Forma de pago</h3>
+          <p>50% al iniciar el trabajo y 50% al entregar.</p>
+          <p>Valores sin IVA. Los precios son referenciales y se confirman en la propuesta de cada proyecto. Grabamos sin costo de traslado en Temuco y Padre Las Casas. <a href="https://wa.me/message/2SJY6SYY5FPGD1" target="_blank" rel="noopener">Pide el tarifario completo por WhatsApp</a>.</p>
+        </div>
       </div>
     </section>
 
-    <section class="redes" aria-label="Redes sociales">
-      <ul>
-        <li><a href="https://www.tiktok.com/@araucan.ia" target="_blank" rel="noopener" aria-label="TikTok de Araucan IA"><img src="assets/img/icono-tiktok.webp" alt="" width="26" height="26"></a></li>
-        <li><a href="https://www.instagram.com/araucan.ia/" target="_blank" rel="noopener" aria-label="Instagram de Araucan IA"><img src="assets/img/icono-instagram.webp" alt="" width="26" height="26"></a></li>
-        <li><a href="https://www.linkedin.com/company/araucan-ia/" target="_blank" rel="noopener" aria-label="LinkedIn de Araucan IA"><img src="assets/img/logo-circular-linkedin.webp" alt="" width="26" height="26"></a></li>
-      </ul>
+    <section id="nosotros" class="seccion" aria-labelledby="titulo-nosotros">
+      <div class="contenedor nosotros">
+        <div>
+          <p class="etiqueta">Quiénes somos</p>
+          <h2 id="titulo-nosotros">Una empresa de Temuco que crea contenido con IA para pymes</h2>
+          <p class="intro">Araucan IA SpA produce contenido con inteligencia artificial para pymes: videos, imágenes, voces, logos y herramientas digitales, revisados por personas antes de cada entrega.</p>
+          <p class="intro">Con conocimiento del entorno local y un enfoque constante en la innovación, ayudamos a nuestros clientes a aumentar su productividad, ahorrar tiempo y mantenerse competitivos en un entorno digital.</p>
+        </div>
+        <ul class="equipo">
+          <li class="persona">
+            <span class="persona__iniciales" aria-hidden="true">HO</span>
+            <div><p class="persona__nombre">Humberto Oyarzún</p><p>Fundador</p></div>
+          </li>
+          <li class="persona">
+            <span class="persona__iniciales" aria-hidden="true">PO</span>
+            <div><p class="persona__nombre">Pedro Oyarzún</p><p>Cofundador</p></div>
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <!-- NO MIGRADO: el bloque insertado con un testimonio
-         ("Este producto superó todas mis expectativas…" – María Pérez, Temuco)
-         parece texto de ejemplo del código insertado, así que no se publica.
-         Si es de un cliente real, se puede reponer; si no, reemplazar por
-         testimonios reales con autorización del cliente. -->
-
-    <section class="contacto">
-      <a class="boton-blanco" href="https://wa.me/message/2SJY6SYY5FPGD1" target="_blank" rel="noopener">Chat en vivo</a>
+    <section id="contacto" class="contacto" aria-labelledby="titulo-contacto">
+      <div class="contenedor contacto__interior">
+        <div>
+          <img class="contacto__logo" src="assets/img/marca/araucania-logo-oficial-blanco.svg" alt="" width="180" height="92" loading="lazy">
+          <h2 id="titulo-contacto">Te regalamos una idea de contenido para tu negocio</h2>
+          <p class="contacto__texto">Escríbenos por WhatsApp, cuéntanos qué vendes y te enviamos una propuesta de pieza sin costo ni compromiso.</p>
+          <a class="boton boton--claro" href="https://wa.me/message/2SJY6SYY5FPGD1" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+        </div>
+        <dl class="datos">
+          <div><dt>Humberto Oyarzún</dt><dd><a href="https://wa.me/56931081739" target="_blank" rel="noopener">+56 9 3108 1739</a></dd></div>
+          <div><dt>Pedro Oyarzún</dt><dd><a href="https://wa.me/56937062288" target="_blank" rel="noopener">+56 9 3706 2288</a></dd></div>
+          <div><dt>Correo</dt><dd><a href="mailto:araucania.contacto@gmail.com">araucania.contacto@gmail.com</a></dd></div>
+          <div><dt>Instagram y TikTok</dt><dd><a href="https://www.instagram.com/araucan.ia/" target="_blank" rel="noopener">@araucan.ia</a> · <a href="https://www.tiktok.com/@araucan.ia" target="_blank" rel="noopener">TikTok</a></dd></div>
+          <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/company/araucan-ia/" target="_blank" rel="noopener">linkedin.com/company/araucan-ia</a></dd></div>
+          <div><dt>Horario</dt><dd>Lunes a sábado, de 9:00 a 20:00</dd></div>
+        </dl>
+      </div>
     </section>
   </main>
 
   <footer class="pie">
-    <div class="contenedor pie__caja">
-      Temuco, Chile. 2025 | araucania.contacto@gmail.com | <a href="https://wa.me/message/2SJY6SYY5FPGD1" target="_blank" rel="noopener">+569 3108 1739</a>
+    <div class="contenedor pie__interior">
+      <p>© 2026 Araucan IA SpA · Temuco, La Araucanía</p>
+      <p><a href="https://www.instagram.com/araucan.ia/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.tiktok.com/@araucan.ia" target="_blank" rel="noopener">TikTok</a> · <a href="https://www.linkedin.com/company/araucan-ia/" target="_blank" rel="noopener">LinkedIn</a></p>
     </div>
+    <a class="flotante" href="https://wa.me/message/2SJY6SYY5FPGD1" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H9l-5 4v-4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg>
+      <span>WhatsApp</span>
+    </a>
   </footer>
 </body>
 </html>
